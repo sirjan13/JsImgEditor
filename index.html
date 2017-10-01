@@ -19,7 +19,14 @@
                 <a class="navbar-brand" href="#">Photo Editor</a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"><input type="file" id="load_file" class="" /></span></a>
+                        <div class="file-upload">
+                            <div class="file-select">
+                                <div class="file-select-button" id="fileName">Choose File</div>
+                                <div class="file-select-name" id="noFile">No file chosen...</div>
+                                <input type="file" name="chooseFile" id="chooseFile">
+                            </div>
+                        </div>
+                        <!--<a class="nav-link" href="#"><input type="file" id="load_file" class="" /></span></a>-->
                     </li>
                     
                 </ul>
